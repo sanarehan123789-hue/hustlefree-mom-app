@@ -3,7 +3,7 @@ import { User } from 'firebase/auth';
 import { initAuth, googleSignIn, logout as firebaseLogout } from './firebase';
 import { MomProfile } from './types';
 import { PROFILE_DETAILS } from './data';
-import TipSection from './components/TipSection';
+import TipSection from './TipSection';
 import CalendarTab from './components/CalendarTab';
 import ChoresTab from './components/ChoresTab';
 import BudgetTab from './components/BudgetTab';
