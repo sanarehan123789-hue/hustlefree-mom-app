@@ -4,9 +4,9 @@ import { initAuth, googleSignIn, logout as firebaseLogout } from './firebase';
 import { MomProfile } from './types';
 import { PROFILE_DETAILS } from './data';
 import TipSection from './TipSection';
-import CalendarTab from './components/CalendarTab';
-import ChoresTab from './components/ChoresTab';
-import BudgetTab from './components/BudgetTab';
+import CalendarTab from './CalendarTab';
+import ChoresTab from './ChoresTab';
+import BudgetTab from './BudgetTab';
 import { 
   Sparkles, 
   Calendar, 
